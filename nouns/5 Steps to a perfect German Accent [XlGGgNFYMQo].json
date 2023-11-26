@@ -1,0 +1,638 @@
+{
+  "video_id": "XlGGgNFYMQo",
+  "video_title": "5 Steps to a perfect German Accent",
+  "video_link": "https://www.youtube.com/watch?v=XlGGgNFYMQo",
+  "nouns": [
+    [
+      {
+        "text": "einen",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Ind",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "nen"
+      },
+      {
+        "text": "richtig",
+        "pos": "ADV",
+        "dep": "mo",
+        "morph": {
+          "Degree": "Pos"
+        },
+        "lemma": "richtig",
+        "shape": "xxxx",
+        "tag": "ADJD",
+        "lang": "de",
+        "prefix": "r",
+        "suffix": "tig"
+      },
+      {
+        "text": "sch\u00f6nen",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Degree": "Pos",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "sch\u00f6n",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "s",
+        "suffix": "nen"
+      },
+      {
+        "text": "deutschen",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Degree": "Pos",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "deutsch",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "hen"
+      },
+      {
+        "text": "Akzent",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Akzent",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "A",
+        "suffix": "ent"
+      }
+    ],
+    [
+      {
+        "text": "kein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Ind"
+        },
+        "lemma": "kein",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "k",
+        "suffix": "ein"
+      },
+      {
+        "text": "th",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Th",
+        "shape": "xx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "t",
+        "suffix": "th"
+      }
+    ],
+    [
+      {
+        "text": "alle",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Plur",
+          "PronType": "Ind"
+        },
+        "lemma": "aller",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "a",
+        "suffix": "lle"
+      },
+      {
+        "text": "ths",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Plur"
+        },
+        "lemma": "ths",
+        "shape": "xxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "t",
+        "suffix": "ths"
+      }
+    ],
+    [
+      {
+        "text": "wie",
+        "pos": "ADP",
+        "dep": "cm",
+        "morph": {},
+        "lemma": "wie",
+        "shape": "xxx",
+        "tag": "KOKOM",
+        "lang": "de",
+        "prefix": "w",
+        "suffix": "wie"
+      },
+      {
+        "text": "ein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Ind",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ein"
+      },
+      {
+        "text": "s",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "s",
+        "shape": "x",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "s",
+        "suffix": "s"
+      }
+    ],
+    [
+      {
+        "text": "ein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Ind",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ein"
+      },
+      {
+        "text": "z",
+        "pos": "NOUN",
+        "dep": "cj",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Z",
+        "shape": "x",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "z",
+        "suffix": "z"
+      }
+    ],
+    [
+      {
+        "text": "wie",
+        "pos": "ADP",
+        "dep": "cm",
+        "morph": {},
+        "lemma": "wie",
+        "shape": "xxx",
+        "tag": "KOKOM",
+        "lang": "de",
+        "prefix": "w",
+        "suffix": "wie"
+      },
+      {
+        "text": "ein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Ind",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ein"
+      },
+      {
+        "text": "deutsches",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Degree": "Pos",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "deutsch",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "hes"
+      },
+      {
+        "text": "W",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "W",
+        "shape": "X",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "W",
+        "suffix": "W"
+      }
+    ],
+    [
+      {
+        "text": "nur",
+        "pos": "ADV",
+        "dep": "mo",
+        "morph": {},
+        "lemma": "nur",
+        "shape": "xxx",
+        "tag": "ADV",
+        "lang": "de",
+        "prefix": "n",
+        "suffix": "nur"
+      },
+      {
+        "text": "eure",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Plur",
+          "Poss": "Yes",
+          "PronType": "Prs"
+        },
+        "lemma": "euer",
+        "shape": "xxxx",
+        "tag": "PPOSAT",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ure"
+      },
+      {
+        "text": "Schneidez\u00e4hne",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Plur"
+        },
+        "lemma": "Schneidez\u00e4hne",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "S",
+        "suffix": "hne"
+      }
+    ],
+    [
+      {
+        "text": "die",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Def",
+          "Gender": "Fem",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "die"
+      },
+      {
+        "text": "Lippe",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Lippe",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "L",
+        "suffix": "ppe"
+      }
+    ],
+    [
+      {
+        "text": "das",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "das"
+      },
+      {
+        "text": "englische",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Degree": "Pos",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "englisch",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "che"
+      },
+      {
+        "text": "R",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "R",
+        "shape": "X",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "R",
+        "suffix": "R"
+      }
+    ],
+    [
+      {
+        "text": "kein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Ind"
+        },
+        "lemma": "kein",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "k",
+        "suffix": "ein"
+      },
+      {
+        "text": "Deutscher",
+        "pos": "NOUN",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "deutsche",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "her"
+      }
+    ],
+    [
+      {
+        "text": "Das",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "Xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "Das"
+      },
+      {
+        "text": "deutsche",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Degree": "Pos",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "deutsch",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "che"
+      },
+      {
+        "text": "R",
+        "pos": "NOUN",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "R",
+        "shape": "X",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "R",
+        "suffix": "R"
+      }
+    ],
+    [
+      {
+        "text": "ein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Definite": "Ind",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ein"
+      },
+      {
+        "text": "bisschen",
+        "pos": "NOUN",
+        "dep": "ams",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "bisschen",
+        "shape": "xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "b",
+        "suffix": "hen"
+      }
+    ],
+    [
+      {
+        "text": "einer",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Gen",
+          "Definite": "Ind",
+          "Gender": "Fem",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ner"
+      },
+      {
+        "text": "Frage",
+        "pos": "NOUN",
+        "dep": "ag",
+        "morph": {
+          "Case": "Gen",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Frage",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "F",
+        "suffix": "age"
+      }
+    ],
+    [
+      {
+        "text": "die",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Def",
+          "Number": "Plur",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "die"
+      },
+      {
+        "text": "Deutschen",
+        "pos": "NOUN",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Number": "Plur"
+        },
+        "lemma": "deutsche",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "hen"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "video_id": "ET7FT-qSrdw",
+  "video_title": "Ausdruck des Tages - der Drahtesel #shorts #fahrrad #radfahren",
+  "video_link": "https://www.youtube.com/watch?v=ET7FT-qSrdw",
+  "nouns": [
+    [
+      {
+        "text": "mein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Poss": "Yes",
+          "PronType": "Prs"
+        },
+        "lemma": "mein",
+        "shape": "xxxx",
+        "tag": "PPOSAT",
+        "lang": "de",
+        "prefix": "m",
+        "suffix": "ein"
+      },
+      {
+        "text": "Drahtesel",
+        "pos": "NOUN",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Drahtesel",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "sel"
+      }
+    ],
+    [
+      {
+        "text": "kein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Ind"
+        },
+        "lemma": "kein",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "k",
+        "suffix": "ein"
+      },
+      {
+        "text": "Auto",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Auto",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "A",
+        "suffix": "uto"
+      }
+    ],
+    [
+      {
+        "text": "ein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Ind",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ein"
+      },
+      {
+        "text": "umgangssprachliches",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Degree": "Pos",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "umgangssprachlich",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "u",
+        "suffix": "hes"
+      },
+      {
+        "text": "Wort",
+        "pos": "NOUN",
+        "dep": "pd",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Wort",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "W",
+        "suffix": "ort"
+      }
+    ],
+    [
+      {
+        "text": "das",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "das"
+      },
+      {
+        "text": "Fahrrad",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Fahrrad",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "F",
+        "suffix": "rad"
+      }
+    ],
+    [
+      {
+        "text": "Der",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Def",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "Xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "Der"
+      },
+      {
+        "text": "Draht",
+        "pos": "NOUN",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Draht",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "aht"
+      }
+    ],
+    [
+      {
+        "text": "das",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "das"
+      },
+      {
+        "text": "Metall",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Metall",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "M",
+        "suffix": "all"
+      }
+    ],
+    [
+      {
+        "text": "der",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Def",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "der"
+      },
+      {
+        "text": "Esel",
+        "pos": "NOUN",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Esel",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "sel"
+      }
+    ],
+    [
+      {
+        "text": "das",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "das"
+      },
+      {
+        "text": "Tier",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Tier",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "T",
+        "suffix": "ier"
+      }
+    ]
+  ]
+}

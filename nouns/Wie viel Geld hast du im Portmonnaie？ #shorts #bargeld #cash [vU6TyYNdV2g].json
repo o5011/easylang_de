@@ -1,0 +1,491 @@
+{
+  "video_id": "vU6TyYNdV2g",
+  "video_title": "Wie viel Geld hast du im Portmonnaie\uff1f #shorts #bargeld #cash",
+  "video_link": "https://www.youtube.com/watch?v=vU6TyYNdV2g",
+  "nouns": [
+    [
+      {
+        "text": "viel",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "PronType": "Ind"
+        },
+        "lemma": "viel",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "v",
+        "suffix": "iel"
+      },
+      {
+        "text": "Geld",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Geld",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "G",
+        "suffix": "eld"
+      }
+    ],
+    [
+      {
+        "text": "Ihrem",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Dat",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "Poss": "Yes",
+          "PronType": "Prs"
+        },
+        "lemma": "ihr",
+        "shape": "Xxxxx",
+        "tag": "PPOSAT",
+        "lang": "de",
+        "prefix": "I",
+        "suffix": "rem"
+      },
+      {
+        "text": "Portemonnaie",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Dat",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Portemonnaie",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "P",
+        "suffix": "aie"
+      }
+    ],
+    [
+      {
+        "text": "So",
+        "pos": "ADV",
+        "dep": "mo",
+        "morph": {},
+        "lemma": "so",
+        "shape": "Xx",
+        "tag": "ADV",
+        "lang": "de",
+        "prefix": "S",
+        "suffix": "So"
+      },
+      {
+        "text": "40",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "40",
+        "shape": "dd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "4",
+        "suffix": "40"
+      },
+      {
+        "text": ",",
+        "pos": "PUNCT",
+        "dep": "punct",
+        "morph": {},
+        "lemma": "--",
+        "shape": ",",
+        "tag": "$,",
+        "lang": "de",
+        "prefix": ",",
+        "suffix": ","
+      },
+      {
+        "text": "50",
+        "pos": "NUM",
+        "dep": "cj",
+        "morph": {},
+        "lemma": "50",
+        "shape": "dd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "5",
+        "suffix": "50"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ],
+    [
+      {
+        "text": "100",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "100",
+        "shape": "ddd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "1",
+        "suffix": "100"
+      },
+      {
+        "text": "und",
+        "pos": "CCONJ",
+        "dep": "cd",
+        "morph": {},
+        "lemma": "und",
+        "shape": "xxx",
+        "tag": "KON",
+        "lang": "de",
+        "prefix": "u",
+        "suffix": "und"
+      },
+      {
+        "text": "150",
+        "pos": "NUM",
+        "dep": "cj",
+        "morph": {},
+        "lemma": "150",
+        "shape": "ddd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "1",
+        "suffix": "150"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ],
+    [
+      {
+        "text": "keinen",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Ind"
+        },
+        "lemma": "kein",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "k",
+        "suffix": "nen"
+      },
+      {
+        "text": "Portemonnaie",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Portemonnaie",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "P",
+        "suffix": "aie"
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "5",
+        "shape": "d",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "5",
+        "suffix": "5"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ],
+    [
+      {
+        "text": "kein",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Ind"
+        },
+        "lemma": "kein",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "k",
+        "suffix": "ein"
+      },
+      {
+        "text": "Bargeld",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Bargeld",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "B",
+        "suffix": "eld"
+      }
+    ],
+    [
+      {
+        "text": "er",
+        "pos": "PRON",
+        "dep": "sb",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "Person": "3",
+          "PronType": "Prs"
+        },
+        "lemma": "er",
+        "shape": "xx",
+        "tag": "PPER",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "er"
+      },
+      {
+        "text": "das",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "das"
+      },
+      {
+        "text": "Bargeld",
+        "pos": "NOUN",
+        "dep": "cj",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Bargeld",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "B",
+        "suffix": "eld"
+      }
+    ],
+    [
+      {
+        "text": "40",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "40",
+        "shape": "dd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "4",
+        "suffix": "40"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ],
+    [
+      {
+        "text": "Boah",
+        "pos": "INTJ",
+        "dep": "dm",
+        "morph": {},
+        "lemma": "Boah",
+        "shape": "Xxxx",
+        "tag": "ITJ",
+        "lang": "de",
+        "prefix": "B",
+        "suffix": "oah"
+      },
+      {
+        "text": ",",
+        "pos": "PUNCT",
+        "dep": "punct",
+        "morph": {},
+        "lemma": "--",
+        "shape": ",",
+        "tag": "$,",
+        "lang": "de",
+        "prefix": ",",
+        "suffix": ","
+      },
+      {
+        "text": "so",
+        "pos": "ADV",
+        "dep": "mo",
+        "morph": {},
+        "lemma": "so",
+        "shape": "xx",
+        "tag": "ADV",
+        "lang": "de",
+        "prefix": "s",
+        "suffix": "so"
+      },
+      {
+        "text": "200",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "200",
+        "shape": "ddd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "2",
+        "suffix": "200"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ],
+    [
+      {
+        "text": "20",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "20",
+        "shape": "dd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "2",
+        "suffix": "20"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ],
+    [
+      {
+        "text": "50",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "50",
+        "shape": "dd",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "5",
+        "suffix": "50"
+      },
+      {
+        "text": "Euro",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Gender": "Masc"
+        },
+        "lemma": "Euro",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "E",
+        "suffix": "uro"
+      }
+    ]
+  ]
+}

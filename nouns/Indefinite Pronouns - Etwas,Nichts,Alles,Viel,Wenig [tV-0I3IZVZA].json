@@ -1,0 +1,121 @@
+{
+  "video_id": "tV-0I3IZVZA",
+  "video_title": "Indefinite Pronouns - Etwas,Nichts,Alles,Viel,Wenig",
+  "video_link": "https://www.youtube.com/watch?v=tV-0I3IZVZA",
+  "nouns": [
+    [
+      {
+        "text": "f\u00fcnf",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "f\u00fcnf",
+        "shape": "xxxx",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "f",
+        "suffix": "\u00fcnf"
+      },
+      {
+        "text": "verschiedene",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Degree": "Pos",
+          "Gender": "Neut",
+          "Number": "Plur"
+        },
+        "lemma": "verschieden",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "v",
+        "suffix": "ene"
+      },
+      {
+        "text": "Indefinitpronomen",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Neut",
+          "Number": "Plur"
+        },
+        "lemma": "Indefinitpronoma",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "I",
+        "suffix": "men"
+      }
+    ],
+    [
+      {
+        "text": "alles",
+        "pos": "PRON",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Ind"
+        },
+        "lemma": "alle",
+        "shape": "xxxx",
+        "tag": "PIS",
+        "lang": "de",
+        "prefix": "a",
+        "suffix": "les"
+      },
+      {
+        "text": "Puh",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Puh",
+        "shape": "Xxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "P",
+        "suffix": "Puh"
+      }
+    ],
+    [
+      {
+        "text": "viel",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "PronType": "Ind"
+        },
+        "lemma": "viel",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "v",
+        "suffix": "iel"
+      },
+      {
+        "text": "Arbeit",
+        "pos": "NOUN",
+        "dep": "cj",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Arbeit",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "A",
+        "suffix": "eit"
+      }
+    ]
+  ]
+}

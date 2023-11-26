@@ -1,0 +1,87 @@
+{
+  "video_id": "Db-I7tsYcOk",
+  "video_title": "Expressions for something being awesome - German Basic Phrases (36)",
+  "video_link": "https://www.youtube.com/watch?v=Db-I7tsYcOk",
+  "nouns": [
+    [
+      {
+        "text": "Geil",
+        "pos": "ADV",
+        "dep": "pd",
+        "morph": {
+          "Degree": "Pos"
+        },
+        "lemma": "Geil",
+        "shape": "Xxxx",
+        "tag": "ADV",
+        "lang": "de",
+        "prefix": "G",
+        "suffix": "eil"
+      },
+      {
+        "text": "!",
+        "pos": "PUNCT",
+        "dep": "punct",
+        "morph": {},
+        "lemma": "--",
+        "shape": "!",
+        "tag": "$.",
+        "lang": "de",
+        "prefix": "!",
+        "suffix": "!"
+      },
+      {
+        "text": "Klasse",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Klasse",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "K",
+        "suffix": "sse"
+      }
+    ],
+    [
+      {
+        "text": "Der",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Nom",
+          "Definite": "Def",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "Xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "D",
+        "suffix": "Der"
+      },
+      {
+        "text": "Hammer",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Hammer",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "H",
+        "suffix": "mer"
+      }
+    ]
+  ]
+}
