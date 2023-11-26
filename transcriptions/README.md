@@ -1,0 +1,1 @@
+I unfortunately do not own the rights to the videos, so I cannot share their transcriptions.
