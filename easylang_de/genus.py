@@ -70,84 +70,80 @@ class GenusResolver:
             return self._check_possible_genera(kasus, numerus, genus)
 
 
-GR = GenusResolver
-AM = AllowedMorph
-
-
 RESOLVERS = {
-    "der": GR(
-        AM(Genus.M, Kasus.NOM, Numerus.SG),
-        AM(Genus.F, Kasus.DAT, Numerus.SG),
-        AM(Genus.F, Kasus.GEN, Numerus.SG),
-        AM(None, Kasus.GEN, Numerus.PL),
+    "der": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.GEN, Numerus.SG),
+        AllowedMorph(None, Kasus.GEN, Numerus.PL),
     ),
-    "derselben": GR(
-        AM(Genus.F, Kasus.DAT, Numerus.SG),
-        AM(Genus.F, Kasus.GEN, Numerus.SG),
-        AM(None, Kasus.GEN, Numerus.PL),
+    "derselben": GenusResolver(
+        AllowedMorph(Genus.F, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.GEN, Numerus.SG),
+        AllowedMorph(None, Kasus.GEN, Numerus.PL),
     ),
-    "die": GR(
-        AM(Genus.F, Kasus.NOM, Numerus.SG),
-        AM(Genus.F, Kasus.ACC, Numerus.SG),
-        AM(None, Kasus.NOM, Numerus.PL),
-        AM(None, Kasus.ACC, Numerus.PL),
+    "die": GenusResolver(
+        AllowedMorph(Genus.F, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.ACC, Numerus.SG),
+        AllowedMorph(None, Kasus.NOM, Numerus.PL),
+        AllowedMorph(None, Kasus.ACC, Numerus.PL),
     ),
-    "dieselbe": GR(
-        AM(Genus.F, Kasus.NOM, Numerus.SG),
-        AM(Genus.F, Kasus.ACC, Numerus.SG),
+    "dieselbe": GenusResolver(
+        AllowedMorph(Genus.F, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.ACC, Numerus.SG),
     ),
-    "dieselben": GR(
-        AM(None, Kasus.NOM, Numerus.PL),
-        AM(None, Kasus.ACC, Numerus.PL),
+    "dieselben": GenusResolver(
+        AllowedMorph(None, Kasus.NOM, Numerus.PL),
+        AllowedMorph(None, Kasus.ACC, Numerus.PL),
     ),
-    "diejenigen": GR(
-        AM(None, Kasus.NOM, Numerus.PL),
-        AM(None, Kasus.ACC, Numerus.PL),
+    "diejenigen": GenusResolver(
+        AllowedMorph(None, Kasus.NOM, Numerus.PL),
+        AllowedMorph(None, Kasus.ACC, Numerus.PL),
     ),
-    "das": GR(
-        AM(Genus.N, Kasus.NOM, Numerus.SG),
-        AM(Genus.N, Kasus.ACC, Numerus.SG),
+    "das": GenusResolver(
+        AllowedMorph(Genus.N, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.ACC, Numerus.SG),
     ),
-    "dasselbe": GR(
-        AM(Genus.N, Kasus.NOM, Numerus.SG),
-        AM(Genus.N, Kasus.ACC, Numerus.SG),
+    "dasselbe": GenusResolver(
+        AllowedMorph(Genus.N, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.ACC, Numerus.SG),
     ),
-    "den": GR(
-        AM(Genus.M, Kasus.ACC, Numerus.SG),
-        AM(None, Kasus.DAT, Numerus.PL),
+    "den": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.ACC, Numerus.SG),
+        AllowedMorph(None, Kasus.DAT, Numerus.PL),
     ),
-    "denselben": GR(
-        AM(Genus.M, Kasus.ACC, Numerus.SG),
-        AM(None, Kasus.DAT, Numerus.PL),
+    "denselben": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.ACC, Numerus.SG),
+        AllowedMorph(None, Kasus.DAT, Numerus.PL),
     ),
-    "dem": GR(
-        AM(Genus.M, Kasus.DAT, Numerus.SG),
-        AM(Genus.N, Kasus.DAT, Numerus.SG),
+    "dem": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.DAT, Numerus.SG),
     ),
-    "demselben": GR(
-        AM(Genus.M, Kasus.DAT, Numerus.SG),
-        AM(Genus.N, Kasus.DAT, Numerus.SG),
+    "demselben": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.DAT, Numerus.SG),
     ),
-    "deren": GR(
-        AM(Genus.F, Kasus.GEN, Numerus.SG),
-        AM(None, Kasus.GEN, Numerus.PL),
+    "deren": GenusResolver(
+        AllowedMorph(Genus.F, Kasus.GEN, Numerus.SG),
+        AllowedMorph(None, Kasus.GEN, Numerus.PL),
     ),
-    "dessen": GR(
-        AM(Genus.M, Kasus.GEN, Numerus.SG),
-        AM(Genus.N, Kasus.GEN, Numerus.SG),
+    "dessen": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.GEN, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.GEN, Numerus.SG),
     ),
-    "des": GR(
-        AM(Genus.M, Kasus.GEN, Numerus.SG),
-        AM(Genus.N, Kasus.GEN, Numerus.SG),
+    "des": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.GEN, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.GEN, Numerus.SG),
     ),
     #
-    "beide": GR(
-        AM(None, Kasus.NOM, Numerus.PL),
-        AM(None, Kasus.ACC, Numerus.PL),
+    "beide": GenusResolver(
+        AllowedMorph(None, Kasus.NOM, Numerus.PL),
+        AllowedMorph(None, Kasus.ACC, Numerus.PL),
     ),
-    "beiden": GR(
-        AM(None, Kasus.DAT, Numerus.PL),
-        AM(None, Kasus.GEN, Numerus.PL),
+    "beiden": GenusResolver(
+        AllowedMorph(None, Kasus.DAT, Numerus.PL),
+        AllowedMorph(None, Kasus.GEN, Numerus.PL),
     ),
     # I disable viel because the it is generally not inflected even though
     # the noun is accusative, like in viel Spaß
@@ -158,12 +154,12 @@ RESOLVERS = {
     #     AM(Genus.F, Kasus.ACC, Numerus.SG),
     #     AM(Genus.N, Kasus.ACC, Numerus.SG),
     # ),
-    "vielen": GR(
-        AM(Genus.M, Kasus.ACC, Numerus.SG),
-        AM(Genus.M, Kasus.DAT, Numerus.SG),
-        AM(Genus.N, Kasus.ACC, Numerus.SG),
-        AM(Genus.N, Kasus.DAT, Numerus.SG),
-        AM(Genus.F, Kasus.DAT, Numerus.SG),
+    "vielen": GenusResolver(
+        AllowedMorph(Genus.M, Kasus.ACC, Numerus.SG),
+        AllowedMorph(Genus.M, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.ACC, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.DAT, Numerus.SG),
     ),
     # "viele",
     # "vieler",
@@ -201,10 +197,10 @@ TERM_NONE = [
 ]
 
 for term in TERM_NONE:
-    RESOLVERS[term] = GR(
-        AM(Genus.M, Kasus.NOM, Numerus.SG),
-        AM(Genus.N, Kasus.NOM, Numerus.SG),
-        AM(Genus.N, Kasus.ACC, Numerus.SG),
+    RESOLVERS[term] = GenusResolver(
+        AllowedMorph(Genus.M, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.ACC, Numerus.SG),
     )
 
 
@@ -233,11 +229,11 @@ TERM_E = [
 ]
 
 for term in TERM_E:
-    RESOLVERS[term] = GR(
-        AM(Genus.F, Kasus.NOM, Numerus.SG),
-        AM(Genus.F, Kasus.ACC, Numerus.SG),
-        AM(None, Kasus.NOM, Numerus.PL),
-        AM(None, Kasus.ACC, Numerus.PL),
+    RESOLVERS[term] = GenusResolver(
+        AllowedMorph(Genus.F, Kasus.NOM, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.ACC, Numerus.SG),
+        AllowedMorph(None, Kasus.NOM, Numerus.PL),
+        AllowedMorph(None, Kasus.ACC, Numerus.PL),
     )
 
 TERM_S = [
@@ -258,9 +254,9 @@ TERM_S = [
 ]
 
 for term in TERM_S:
-    RESOLVERS[term] = GR(
-        AM(Genus.M, Kasus.GEN, Numerus.SG),
-        AM(Genus.N, Kasus.GEN, Numerus.SG),
+    RESOLVERS[term] = GenusResolver(
+        AllowedMorph(Genus.M, Kasus.GEN, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.GEN, Numerus.SG),
     )
 
 TERM_R = [
@@ -286,10 +282,10 @@ TERM_R = [
 ]
 
 for term in TERM_R:
-    RESOLVERS[term] = GR(
-        AM(Genus.F, Kasus.DAT, Numerus.SG),
-        AM(Genus.F, Kasus.GEN, Numerus.SG),
-        AM(None, Kasus.GEN, Numerus.PL),
+    RESOLVERS[term] = GenusResolver(
+        AllowedMorph(Genus.F, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.F, Kasus.GEN, Numerus.SG),
+        AllowedMorph(None, Kasus.GEN, Numerus.PL),
     )
 
 TERM_M = [
@@ -314,9 +310,9 @@ TERM_M = [
 ]
 
 for term in TERM_M:
-    RESOLVERS[term] = GR(
-        AM(Genus.M, Kasus.DAT, Numerus.SG),
-        AM(Genus.N, Kasus.DAT, Numerus.SG),
+    RESOLVERS[term] = GenusResolver(
+        AllowedMorph(Genus.M, Kasus.DAT, Numerus.SG),
+        AllowedMorph(Genus.N, Kasus.DAT, Numerus.SG),
     )
 
 TERM_N = [
@@ -345,7 +341,7 @@ TERM_N = [
 ]
 
 for term in TERM_N:
-    RESOLVERS[term] = GR(
-        AM(Genus.M, Kasus.ACC, Numerus.SG),
-        AM(None, Kasus.DAT, Numerus.PL),
+    RESOLVERS[term] = GenusResolver(
+        AllowedMorph(Genus.M, Kasus.ACC, Numerus.SG),
+        AllowedMorph(None, Kasus.DAT, Numerus.PL),
     )
