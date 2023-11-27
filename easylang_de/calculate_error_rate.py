@@ -35,7 +35,7 @@ for root, dirs, files in os.walk(NOUNS_DIR):
         if file.endswith(".json"):
             json_files.append(os.path.join(root, file))
 
-determiners = []
+signifiers = []
 
 # Process each JSON file
 correct_texts = []
@@ -52,11 +52,14 @@ for file in json_files:
     for span in spans:
         # for word in noun:
         #     if word["pos"] == "DET":
-        #         determiners.append(word["text"].lower())
-        det = span[0]
-        noun = span[-1]
+        #         signifiers.append(word["text"].lower())
 
-        det_ = det["text"].lower()
+        # det = span[0]
+        noun = span[-1]
+        possible_dets = span[:-1]
+
+        possible_dets_ = [det["text"].lower() for det in possible_dets]
+
         if "lemma" in noun:
             noun_ = noun["lemma"].lower()
         else:
@@ -65,8 +68,15 @@ for file in json_files:
         # if not noun_ in CORRECT_GENDERS or not det_ in RESOLVERS:
         #     continue
         correct_genders = CORRECT_GENDERS.get(noun_)
-        resolver = RESOLVERS.get(det_)
+        resolver = None
 
+        for det_ in possible_dets_:
+            if det_ in RESOLVERS:
+                resolver = RESOLVERS.get(det_)
+                break
+
+        # If it can't be found in the dictionary or doesn't contain a
+        # gender signifier, skip it
         if correct_genders is None or resolver is None:
             continue
 

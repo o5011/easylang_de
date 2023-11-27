@@ -16,6 +16,6 @@ with open("nomen_genus.csv", "r") as f:
         CORRECT_GENDERS[noun].append(genus)
 
 # Get the nouns with multiple genders
-for key, val in CORRECT_GENDERS.items():
-    if len(val) > 1:
-        print(key, val)
+# for key, val in CORRECT_GENDERS.items():
+#     if len(val) > 1:
+#         print(key, val)

@@ -66,7 +66,7 @@ def extract_nouns(text: str) -> Tuple[Doc, Dict, List]:
 
     # Loop through the tokens in the sentence
     for token in doc_spacy:
-        # If a noun or follows, pair it with the determiner and any adjectives
+        # If a noun or follows, pair it with the signifier and any adjectives
         # We could also include proper nouns by adding "PROPN" to the list
         # but that would include names of people, places, etc.
         if token.pos_ in ["NOUN"]:
