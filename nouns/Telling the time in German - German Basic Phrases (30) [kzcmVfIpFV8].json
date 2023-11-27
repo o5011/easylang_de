@@ -1,0 +1,99 @@
+{
+  "video_id": "kzcmVfIpFV8",
+  "video_title": "Telling the time in German - German Basic Phrases (30)",
+  "video_link": "https://www.youtube.com/watch?v=kzcmVfIpFV8",
+  "nouns": [
+    [
+      {
+        "text": "viel",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "PronType": "Ind"
+        },
+        "lemma": "viel",
+        "shape": "xxxx",
+        "tag": "PIAT",
+        "lang": "de",
+        "prefix": "v",
+        "suffix": "iel"
+      },
+      {
+        "text": "Uhr",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Uhr",
+        "shape": "Xxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "U",
+        "suffix": "Uhr"
+      }
+    ],
+    [
+      {
+        "text": "5",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "5",
+        "shape": "d",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "5",
+        "suffix": "5"
+      },
+      {
+        "text": "Uhr",
+        "pos": "NOUN",
+        "dep": "pd",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Uhr",
+        "shape": "Xxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "U",
+        "suffix": "Uhr"
+      }
+    ],
+    [
+      {
+        "text": "ein",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "ein",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "ein"
+      },
+      {
+        "text": "Uhr",
+        "pos": "NOUN",
+        "dep": "pd",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "Uhr",
+        "shape": "Xxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "U",
+        "suffix": "Uhr"
+      }
+    ]
+  ]
+}

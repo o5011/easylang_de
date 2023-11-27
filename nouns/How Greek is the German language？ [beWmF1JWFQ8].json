@@ -1,0 +1,176 @@
+{
+  "video_id": "beWmF1JWFQ8",
+  "video_title": "How Greek is the German language\uff1f",
+  "video_link": "https://www.youtube.com/watch?v=beWmF1JWFQ8",
+  "nouns": [
+    [
+      {
+        "text": "Hallo",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "PronType": "Ind"
+        },
+        "lemma": "Hallo",
+        "shape": "Xxxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "H",
+        "suffix": "llo"
+      },
+      {
+        "text": "Leute",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Case": "Nom",
+          "Number": "Plur"
+        },
+        "lemma": "Leute",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "L",
+        "suffix": "ute"
+      }
+    ],
+    [
+      {
+        "text": "einen",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Definite": "Ind",
+          "Gender": "Masc",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "ein",
+        "shape": "xxxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "e",
+        "suffix": "nen"
+      },
+      {
+        "text": "ganz",
+        "pos": "ADV",
+        "dep": "mo",
+        "morph": {},
+        "lemma": "ganz",
+        "shape": "xxxx",
+        "tag": "ADV",
+        "lang": "de",
+        "prefix": "g",
+        "suffix": "anz"
+      },
+      {
+        "text": "besonderen",
+        "pos": "ADJ",
+        "dep": "nk",
+        "morph": {
+          "Case": "Acc",
+          "Degree": "Pos",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "besonderer",
+        "shape": "xxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "b",
+        "suffix": "ren"
+      },
+      {
+        "text": "Gast",
+        "pos": "NOUN",
+        "dep": "oa",
+        "morph": {
+          "Case": "Acc",
+          "Gender": "Masc",
+          "Number": "Sing"
+        },
+        "lemma": "Gast",
+        "shape": "Xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "G",
+        "suffix": "ast"
+      }
+    ],
+    [
+      {
+        "text": "Hallo",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "PronType": "Ind"
+        },
+        "lemma": "Hallo",
+        "shape": "Xxxxx",
+        "tag": "ADJA",
+        "lang": "de",
+        "prefix": "H",
+        "suffix": "llo"
+      },
+      {
+        "text": "Leute",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Case": "Nom",
+          "Number": "Plur"
+        },
+        "lemma": "Leute",
+        "shape": "Xxxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "L",
+        "suffix": "ute"
+      }
+    ],
+    [
+      {
+        "text": "\u03ad\u03c7\u03bf\u03c5\u03bd",
+        "pos": "PUNCT",
+        "dep": "punct",
+        "morph": {},
+        "lemma": "\u03ad\u03c7\u03bf\u03c5\u03bd",
+        "shape": "xxxx",
+        "tag": "$(",
+        "lang": "de",
+        "prefix": "\u03ad",
+        "suffix": "\u03bf\u03c5\u03bd"
+      },
+      {
+        "text": "\u03ad\u03bd\u03b1",
+        "pos": "PUNCT",
+        "dep": "punct",
+        "morph": {},
+        "lemma": "\u03ad\u03bd\u03b1",
+        "shape": "xxx",
+        "tag": "$(",
+        "lang": "de",
+        "prefix": "\u03ad",
+        "suffix": "\u03ad\u03bd\u03b1"
+      },
+      {
+        "text": "S.",
+        "pos": "NOUN",
+        "dep": "cj",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Fem",
+          "Number": "Sing"
+        },
+        "lemma": "S.",
+        "shape": "X.",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "S",
+        "suffix": "S."
+      }
+    ]
+  ]
+}

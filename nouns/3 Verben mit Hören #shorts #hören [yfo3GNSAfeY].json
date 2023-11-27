@@ -1,0 +1,73 @@
+{
+  "video_id": "yfo3GNSAfeY",
+  "video_title": "3 Verben mit H\u00f6ren #shorts #h\u00f6ren",
+  "video_link": "https://www.youtube.com/watch?v=yfo3GNSAfeY",
+  "nouns": [
+    [
+      {
+        "text": "drei",
+        "pos": "NUM",
+        "dep": "nk",
+        "morph": {},
+        "lemma": "drei",
+        "shape": "xxxx",
+        "tag": "CARD",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "rei"
+      },
+      {
+        "text": "verben",
+        "pos": "NOUN",
+        "dep": "ROOT",
+        "morph": {
+          "Case": "Nom",
+          "Gender": "Masc",
+          "Number": "Plur"
+        },
+        "lemma": "verben",
+        "shape": "xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "v",
+        "suffix": "ben"
+      }
+    ],
+    [
+      {
+        "text": "dem",
+        "pos": "DET",
+        "dep": "nk",
+        "morph": {
+          "Case": "Dat",
+          "Definite": "Def",
+          "Gender": "Neut",
+          "Number": "Sing",
+          "PronType": "Art"
+        },
+        "lemma": "der",
+        "shape": "xxx",
+        "tag": "ART",
+        "lang": "de",
+        "prefix": "d",
+        "suffix": "dem"
+      },
+      {
+        "text": "video",
+        "pos": "NOUN",
+        "dep": "nk",
+        "morph": {
+          "Case": "Dat",
+          "Gender": "Neut",
+          "Number": "Sing"
+        },
+        "lemma": "Video",
+        "shape": "xxxx",
+        "tag": "NN",
+        "lang": "de",
+        "prefix": "v",
+        "suffix": "deo"
+      }
+    ]
+  ]
+}
